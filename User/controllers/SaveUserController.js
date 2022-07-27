@@ -15,7 +15,7 @@ router.post("/register", async (request, response) => {
     }
   });
 
-  console.log(findUser);
+  
 
   if (!findUser) {
     const create = Users.create({
